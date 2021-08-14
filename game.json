@@ -95,6 +95,33 @@
         "name": "assests\\quit.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assests/Start.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assests\\Start.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assests/Options.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assests\\Options.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assests/Quit.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assests\\Quit.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -160,8 +187,8 @@
       "uiSettings": {
         "grid": false,
         "gridType": "rectangular",
-        "gridWidth": 256,
-        "gridHeight": 256,
+        "gridWidth": 64,
+        "gridHeight": 64,
         "gridOffsetX": 0,
         "gridOffsetY": 0,
         "gridColor": 10401023,
@@ -174,48 +201,48 @@
       "instances": [
         {
           "angle": 0,
-          "customSize": true,
-          "height": 242,
+          "customSize": false,
+          "height": 0,
           "layer": "",
           "locked": false,
           "name": "Start",
-          "persistentUuid": "c51dede4-c419-464d-b680-53ce892639bb",
-          "width": 242,
-          "x": 0,
-          "y": 492,
-          "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 245,
-          "layer": "",
-          "locked": false,
-          "name": "settings",
-          "persistentUuid": "86b13372-a2c0-481a-ac35-1650e6ea2407",
-          "width": 245,
-          "x": 0,
-          "y": 674,
-          "zOrder": 2,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 245,
-          "layer": "",
-          "locked": false,
-          "name": "quit",
-          "persistentUuid": "9abe9eb0-79e2-4bc9-9dc3-22b6f9adc790",
-          "width": 245,
-          "x": 0,
-          "y": 854,
+          "persistentUuid": "eed801ca-bad6-4567-b6b7-1f80acda25d2",
+          "width": 0,
+          "x": 64,
+          "y": 448,
           "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Options",
+          "persistentUuid": "020e16e4-3dcc-4416-a560-588419b7cb5f",
+          "width": 0,
+          "x": 64,
+          "y": 640,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Quit",
+          "persistentUuid": "a6b593b9-336c-4b80-a7ed-3447f1a3d6e4",
+          "width": 0,
+          "x": 64,
+          "y": 832,
+          "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -241,7 +268,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "assests\\start.png",
+                      "image": "assests\\Start.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -263,7 +290,7 @@
           ]
         },
         {
-          "name": "settings",
+          "name": "Options",
           "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
@@ -281,7 +308,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "assests\\settings.png",
+                      "image": "assests\\Options.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -303,7 +330,7 @@
           ]
         },
         {
-          "name": "quit",
+          "name": "Quit",
           "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
@@ -321,7 +348,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "assests\\quit.png",
+                      "image": "assests\\Quit.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -359,6 +386,62 @@
           "ambientLightColorB": 32,
           "ambientLightColorG": 0,
           "ambientLightColorR": 0,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "name": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": []
+        }
+      ],
+      "behaviorsSharedData": []
+    },
+    {
+      "b": 209,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "Options",
+      "name": "Options",
+      "oglFOV": 90,
+      "oglZFar": 500,
+      "oglZNear": 1,
+      "r": 209,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 209,
+      "uiSettings": {
+        "grid": false,
+        "gridType": "rectangular",
+        "gridWidth": 32,
+        "gridHeight": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridColor": 10401023,
+        "snap": false,
+        "zoomFactor": 1,
+        "windowMask": false
+      },
+      "objectsGroups": [],
+      "variables": [],
+      "instances": [],
+      "objects": [],
+      "events": [],
+      "layers": [
+        {
+          "ambientLightColorB": 7418912,
+          "ambientLightColorG": 150995054,
+          "ambientLightColorR": 1869182049,
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
           "name": "",
@@ -529,7 +612,7 @@
                     "value": "SourisSurObjet"
                   },
                   "parameters": [
-                    "quit",
+                    "Quit",
                     "",
                     "",
                     ""
