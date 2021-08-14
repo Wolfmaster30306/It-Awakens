@@ -118,18 +118,18 @@
   "variables": [],
   "layouts": [
     {
-      "b": 209,
+      "b": 0,
       "disableInputWhenNotFocused": true,
       "mangledName": "menu",
       "name": "menu",
       "oglFOV": 90,
       "oglZFar": 500,
       "oglZNear": 1,
-      "r": 209,
+      "r": 0,
       "standardSortMethod": true,
       "stopSoundsOnStartup": true,
       "title": "",
-      "v": 209,
+      "v": 0,
       "uiSettings": {
         "grid": false,
         "gridType": "rectangular",
@@ -139,7 +139,7 @@
         "gridOffsetY": 0,
         "gridColor": 10401023,
         "snap": true,
-        "zoomFactor": 1,
+        "zoomFactor": 0.4199999999999995,
         "windowMask": false
       },
       "objectsGroups": [],
