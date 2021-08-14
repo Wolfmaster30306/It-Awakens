@@ -197,8 +197,8 @@
           "name": "settings",
           "persistentUuid": "86b13372-a2c0-481a-ac35-1650e6ea2407",
           "width": 245,
-          "x": 2,
-          "y": 676,
+          "x": 0,
+          "y": 674,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
@@ -343,7 +343,17 @@
           ]
         }
       ],
-      "events": [],
+      "events": [
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "gui"
+        }
+      ],
       "layers": [
         {
           "ambientLightColorB": 32,
