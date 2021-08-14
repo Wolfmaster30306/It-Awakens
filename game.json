@@ -50,7 +50,17 @@
     "currentPlatform": "GDevelop JS platform"
   },
   "resources": {
-    "resources": [],
+    "resources": [
+      {
+        "alwaysLoaded": false,
+        "file": "tiles/Crate.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tiles\\Crate.png",
+        "smoothed": true,
+        "userAdded": true
+      }
+    ],
     "resourceFolders": []
   },
   "objects": [],
@@ -188,17 +198,15 @@
       "v": 209,
       "uiSettings": {
         "grid": false,
-        "gridB": 255,
-        "gridG": 180,
+        "gridType": "rectangular",
+        "gridWidth": 32,
         "gridHeight": 32,
         "gridOffsetX": 0,
         "gridOffsetY": 0,
-        "gridR": 158,
-        "gridType": "rectangular",
-        "gridWidth": 32,
+        "gridColor": 10401023,
         "snap": true,
-        "windowMask": false,
-        "zoomFactor": 1
+        "zoomFactor": 1,
+        "windowMask": false
       },
       "objectsGroups": [],
       "variables": [],
